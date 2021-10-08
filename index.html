@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+
+
+    </head>
+    <body>
+        
+        <section>
+                <div class="sideBar position-fixed  d-flex">
+                   <div class="line1">
+                    <ul class="list-unstyled text-white ps-4">
+                        <li class="pt-5 ">Now playing</li>
+                        <li >Popular</li>
+                        <li>Top Rated</li>
+                        <li>Trending</li>
+                        <li>Upcoming</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    <div class="d-flex justify-content-start ico ps-3 text-white">
+                        <i class="fab fa-facebook-f  pe-2"></i>
+                        <i class="fab fa-twitter pe-2"></i>
+                        <i class="fas fa-globe"></i>
+                        
+                    </div>
+                    <p class="ps-3 pt-3 text-white">Copyright Â© 2019 All Rights Reserved.</p>
+                   </div>
+                    <div class=" ribbon bg-white line2  d-flex flex-column justify-content-around align-items-center">
+                        <i class="fas fa-film fa-1x"></i>
+                        <i class="fas fa-align-justify  ico1 fa-1x"></i>
+                        <div>
+                            <i class="fas fa-globe  fa-1x pb-2 d-block"></i>
+                            <i class="fas fa-share-alt fa-1x d-block "></i>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="container-fluid" > 
+            
+        <div class="d-flex justify-content-center align-items-center head">
+
+            <h3 class="text-white text-center pe-2">Movie</h3>
+            <h3 class="text-warning text-center pe-3"> Hub</h3>
+            <i class="fas fa-film  mt-3 fa-2x text-warning"></i>
+        </div>
+            <div class=" mx-auto w-75 myM">
+                <div class="row text-center">
+                       <div class="col-md-6 "><input id="allMovies" class="form-control mb-5  " placeholder="get movies by word...">
+                       </div>
+                       <div class="col-md-6"><input class="form-control " id="word" placeholder="search...">
+                       </div>
+                </div>
+            </div>
+        </section>
+        <section class="container text-center my-0">
+				
+			<div class="row row-main" id="rowData">
+                
+
+            </div>
+		
+		</section>
+        <section class="container py-5">
+
+            <h2 class="py-3 text-white">Contact Us</h2>
+            <div class="row ">
+
+                
+              <div class="col-md-6">
+                <div class="form-group pt-5">
+                    <input class="form-control name" id="name" placeholder="Enter Your Name">
+                      <div class="alert alert-danger d-none" id="namealert" role="alert"">
+                        Your Name is not valid
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group  pt-5"">
+                    <input class="form-control email "placeholder="Enter Your Email ">
+                      <div class="alert alert-danger d-none" id="namealert" role="alert">
+                        Your Email is not valid
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group  pt-3"">
+                  <input class="form-control phone " id="phone" placeholder="Enter phone">
+                  <div class="alert alert-danger d-none" id="phonealert" role="alert">
+                    entre valid phone
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group  pt-3"">
+                  <input class="form-control age" id="age" placeholder="Enter Age">
+                  <div class="alert alert-danger d-none" id="agealert" role="alert">
+                    entre valid Age
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group pt-3">
+                  <input class="form-control password" type="password" id="password" placeholder="Enter Password">
+                  <div class=" pas alert alert-danger d-none" id="passwordalert" role="alert">
+                    entre valid password *Minimum eight characters, at least 
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group  pt-3">
+                  <input class="form-control repassword" type="password"  placeholder="Enter RePassword">
+                  <div class="rep alert alert-danger d-none" id="repasswordalert" role="alert">
+                    entre valid Repassword
+                  </div>
+                </div>
+              </div>
+
+            </div>    
+                          
+            <button z id="submitBtn" class="btn btn-outline-danger mt-5">Submit</button>   
+        </section>
+
+        <h1 class="title"></h1>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>

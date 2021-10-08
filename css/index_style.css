@@ -1,0 +1,124 @@
+*{
+    font-family: segoe ui light;
+
+}
+body{
+    background-color: black;
+}
+.sec1{
+    background-image: url(../images/7.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover;
+    height: 100vh;
+}
+.head h3{
+    font-family: 'Ephesis', cursive;
+    font-size: 100px;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;
+    /* padding-left: 30%; */
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.movie{
+    overflow: hidden;
+}
+
+.movie:hover .layer{
+    top: 0%;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+}
+.sideBar{
+    z-index: 2556655458878; 
+    left: 0;
+    width: 20rem;
+}
+.sideBar i{
+    cursor: pointer;
+}
+.line1{
+    height: 100vh;
+    width: 90%;
+   background-color: black;
+   display: none;
+   transition: all 1s;
+ 
+}
+.line1 ul li{
+    padding-top: 15px;
+}
+.line1 ul li:hover{
+    color: tomato;
+}
+.ico i:hover{
+    color: tomato; 
+}
+.line2{
+    width: 50px;
+    height:100vh;
+
+   
+}
+.animate__animated{
+    animation-duration: 2s;
+}
+.ico{
+    margin-top: 250px;
+    
+}
+.movie{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.caption{
+    position: absolute;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,0.7);
+    top: 100%;
+    font-weight:lighter;
+    transition: all 1s;
+    text-align: center;
+   color: black;
+    
+}
+.caption p{
+    font-size:20px;
+}
+.caption h1{
+    font-size: 50px;
+}
+
+.movie:hover .caption{
+   top:0;
+}
+
+/* .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    transition: all 1s;
+} */
+
+
+
+
+
